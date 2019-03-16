@@ -14,11 +14,11 @@ public class HeroAdapter extends BaseAdapter {
     private Context context;
     private ArrayList<Hero> heroes;
 
-    public void setHeroes(ArrayList<Hero> heroes) {
+    void setHeroes(ArrayList<Hero> heroes) {
         this.heroes = heroes;
     }
 
-    public HeroAdapter(Context context) {
+    HeroAdapter(Context context) {
         this.context = context;
         heroes = new ArrayList<>();
     }
